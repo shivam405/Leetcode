@@ -1,0 +1,1 @@
+select FirstName,LastName,City,State from person as p left join address as ad on p.personId=ad.personId
